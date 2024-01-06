@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<title>forms page</title>
+<style>
+    body{
+      
+        background-image:url("https://img.freepik.com/free-photo/organized-desk-with-copy-space_23-2148219270.jpg");
+   background-size: cover;
+   margin:auto;
+  width: 20%;
+  border-style:initial;
+   }
+</style>
+<body bgcolor="">  <h1><font color= "red">Registration form</font></h1></center>
+<form>
+   
+   <label for="fname ">First name</label> <input type="text" ><br>
+  <br> <label for="name ">Last name</label> <input type="text" ><br>
+  <br><label for="gender"> select your gender :</label> <br>
+  <input type="radio" id="male" name="gen" value="male">
+  <label for="female">Female</label>
+  <input type="radio" id="female" name="gen" value="female">
+  <label for="male">Male</label>
+  <input type="radio" id="others" name="gen" value="others">
+  <label for="others">Others</label><br>
+  <br>
+  <label for="date of birth">Date of birth</label>
+  <input type="date" id="date" name="date" value="date"><br>
+  <br>
+  <label for="laguages are known :">Laguages are known :</label>
+  <br>
+  <br>
+  <input type="checkbox" id="HTML" name="HTML" value="HTML">
+  <label for="HTML">HTML </label> <br>
+  <input type="checkbox" id="CSS" name="CSS" value="CSS">
+  <label for="CSS">CSS</label><br>
+  <input type="checkbox" id="JAVA" name="JAVA" value="JAVA">
+  <label for="JAVA">JAVA</label><br>
+  <br>
+  <label for="resume">Upload your resume</label>
+  <input type="file" id="resume" name="resume" value="resume">
+  <br>
+  <br>
+  <label type="place" >Select the place of living :</label>
+  <select name="nellore" id="place">
+    <option value="nellore">nellore</option>
+    <option value="nellore">chittoor</option>
+    <option value="nellore">vizag</option>
+    <option value="nellore">computer world</option>
+   </select><br><br>
+   <button type="button">Submit</button>
+   <button type="button">Cancel</button>
+   <button type="button">Reset</button>
+</form>
+</body>
+</html>
