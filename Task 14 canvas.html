@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        canvas {
+            border: 1px solid #000;
+            margin-left: 37%;
+        }
+    </style>
+    <title>Home Diagram</title>
+</head>
+<body>
+
+    <h1 style="text-align: center;">Home</h1>
+
+    <canvas id="home" width="400" height="300"></canvas>
+
+    <script>
+        var canvas = document.getElementById("home");
+        var c = canvas.getContext("2d");
+        c.fillStyle = "#ffcc66"; 
+        c.fillRect(50, 150, 300, 150);
+        c.fillStyle = "#996633";
+        c.beginPath();
+        c.moveTo(50, 150);
+        c.lineTo(200, 50);
+        c.lineTo(350, 150);
+        c.closePath();
+        c.fill();
+        c.fillStyle = "#663300";  
+        c.fillRect(170, 200, 60, 100);
+        c.fillStyle = "#000"; 
+        c.beginPath();
+        c.arc(230, 250, 5, 0, 2 * Math.PI);
+        c.fill();
+    </script>
+
+</body>
+</html>
