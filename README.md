@@ -1,1 +1,3 @@
-As a student aspiring to become a web developer, you're stepping into a realm of boundless creativity and technical expertise. Your journey begins with grasping the fundamental pillars of web development, including HTML, CSS, and JavaScript—the building blocks of the internet. Through your studies, you'll learn how to structure content, style designs, and add interactivity to web pages, setting the stage for more advanced exploration.
+This is my practice in web technology!
+i done 10+ web development tasks to improve myself little bit more i used HTML and internal CSS in this tasks.
+hope! it's helpful for begginers............Thank you☺️
